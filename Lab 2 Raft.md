@@ -37,7 +37,7 @@ Lab2A的目的是实现leader选举以及心跳包机制，Lab2B则是在2A基�
 
 ---
 
-![raft-figure 2](/home/peng/OneDrive/文档/Markdown/6.284总结/assets/raft-figure 2.png)
+![raft-figure 2](/assets/raft-figure 2.png)
 
 论文中的图2是一份十分详细的实现指南，它指明了raft服务器之间的各种行为。
 
@@ -535,7 +535,7 @@ Lab2C中最主要的部分是需要实现持久化来处理节点重启的情况
 
 ## 总结
 
- ![raft-test](/home/peng/OneDrive/文档/Markdown/6.284总结/assets/raft-test.png)
+ ![raft-test](/assets/raft-test.png)
 
 测试通过。
 

@@ -278,7 +278,7 @@ Linux中的文件重命名也是原子的，所以应该可以使用同样的方
 
 #### 总结
 
-![mr-test](/home/peng/OneDrive/文档/Markdown/6.284总结/assets/mr-test.png)
+![mr-test](./assets/mr-test.png)
 
 MapReduce算是这一系列lab中比较简单的。几乎没有什么并发上的问题，Worker没有状态，只需要注意对Master临界资源加锁即可。-另外就是需要避免对一个文件的同时写入。
 
